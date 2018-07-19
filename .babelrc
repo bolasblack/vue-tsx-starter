@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "jsx-v-model",
+    "transform-vue-jsx",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-optional-catch-binding",
+  ],
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["last 2 versions"]
+      }
+    }]
+  ]
+}

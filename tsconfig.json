@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true
+  },
+  "include": [
+    "node_modules/vue-tsx-support/enable-check.d.ts",
+    "node_modules/vue-tsx-support/options/allow-unknown-props.d.ts",
+    "configs/**/*.ts",
+    "src/**/*.ts",
+    "test/*.ts"
+  ],
+  "exclude": [
+  ],
+}
