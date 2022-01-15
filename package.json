@@ -68,7 +68,7 @@
     "lint-staged": "^7.0.0",
     "preload-webpack-plugin": "^3.0.0-alpha.1",
     "prettier": "^1.13.0",
-    "shelljs": "^0.8.1",
+    "shelljs": "^0.8.5",
     "style-loader": "^0.21.0",
     "ts-loader": "^4.1.0",
     "ts-node": "^7.0.0",
